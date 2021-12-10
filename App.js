@@ -5,7 +5,7 @@ const App = () => {
   return (
     <View
       style={{
-        backgroundColor: 'red',
+        backgroundColor: 'blue',
         height: 660,
         width: 413,
       }}></View>
