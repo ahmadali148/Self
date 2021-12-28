@@ -1,15 +1,6 @@
 import React from 'react';
-import {View} from 'react-native';
-
+import {SignUp} from './src/screen/signUp/SignUp';
 const App = () => {
-  return (
-    <View
-      style={{
-        backgroundColor: 'blue',
-        height: 660,
-        width: 413,
-      }}></View>
-  );
+  return <SignUp />;
 };
-
 export default App;
