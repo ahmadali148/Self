@@ -1,6 +1,7 @@
 import React from 'react';
-import {SignUp} from './src/screen/signUp/SignUp';
+import {ScreenNavigator} from './src/navigation/ScreenNavigator';
+
 const App = () => {
-  return <SignUp />;
+  return <ScreenNavigator />;
 };
 export default App;

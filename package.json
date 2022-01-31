@@ -6,13 +6,26 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    
+    "clean_gradlew": "cd android && ./gradlew clean",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.15",
+    "@react-navigation/bottom-tabs": "^6.1.0",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "email-validator": "^2.0.4",
+    "i": "^0.3.7",
+    "npm": "^8.3.1",
     "react": "17.0.2",
-    "react-native": "0.66.3"
+    "react-icons": "^4.3.1",
+    "react-native": "0.66.3",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-responsive-screen": "^1.4.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.1",
+    "react-native-vector-icons": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
